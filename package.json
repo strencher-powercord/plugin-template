@@ -1,0 +1,19 @@
+{
+  "name": "plugin-template",
+  "version": "1.0.0",
+  "description": "Whatever you want as description.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "release": "rollup -c"
+  },
+  "author": "Strencher",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@types/react": "^17.0.39",
+    "esbuild": "^0.14.39",
+    "rollup": "^2.67.0",
+    "rollup-plugin-esbuild": "^4.9.1"
+  }
+}
