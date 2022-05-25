@@ -1,6 +1,11 @@
 # Powercord Plugin Template
 * ESM + TS(X) Plugin template for [powercord](https://github.com/powercord-org) using rollup + esbuild.
 
+# Setup
+```bash
+npm install
+```
+
 # Usage
 ```bash
 npm run release # release builds
